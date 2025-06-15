@@ -2,7 +2,7 @@ package Java;
 
 public class UpperCase1 {
     public static void main(String[] args) {
-        String a = "java core ";
+        String a = " java P ";
         String b = " PROGRAM CODE ";
         // System.out.println(a.toUpperCase());
         // System.out.println(b.toLowerCase());
