@@ -1,6 +1,8 @@
 package Java;
 import java.util.Arrays;
 import java.util.Optional;
+import java.lang.constant.Constable;
+import java.lang.constant.ConstantDesc;
 
 public class StringMethodsDemo {
 
@@ -56,7 +58,7 @@ public class StringMethodsDemo {
         multiLine.lines().forEach(System.out::println);
 
         // indent() – Java 12+
-        System.out.println("indent(4):\n" + multiLine.indexOf(4));
+        System.out.println("indent(4):\n" + multiLine.indent(4));
 
         // stripIndent() – Java 15+
         String indented = "    A line\n        Another line";

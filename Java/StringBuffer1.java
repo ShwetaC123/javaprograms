@@ -1,5 +1,4 @@
 package Java;
-
 public class StringBuffer1 {
     public static void main(String[] args) {
     StringBuffer str = new StringBuffer("Cooking");
@@ -12,10 +11,9 @@ public class StringBuffer1 {
     str.replace(26, 26, "IOT");
     System.out.println(str);
 
-    // str.reverse();
-    // System.out.println(str);
+    str.reverse();
+    System.out.println(str);
     
     System.out.println(str.capacity());
-
 }
 }
